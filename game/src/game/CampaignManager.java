@@ -1,6 +1,6 @@
 package game;
 
-public class CampaignManager extends BaseCustomerManager implements CampaignService {
+public class CampaignManager implements CampaignService {
 
 	@Override
 	public void addCampaign(Campaign campaign) {
@@ -20,11 +20,6 @@ public class CampaignManager extends BaseCustomerManager implements CampaignServ
 		
 	}
 
-	@Override
-	public boolean chechIfRealPerson(Player player) {
-		System.out.println("campaign");
-		return false;
-	}
 
 
 

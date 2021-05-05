@@ -32,10 +32,5 @@ private PlayerCheckService playerChechService;
 		
 	}
 
-//	@Override
-//	public boolean chechIfRealPerson(Player player) {
-//		System.out.println("player");
-//		return false;
-//	}
 
 }
